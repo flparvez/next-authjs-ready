@@ -18,7 +18,7 @@ const Head = () => {
   console.log(session)
   return (
     <div>
-      <h2>This is home page</h2>
+      <h2><Link href="/">Home</Link></h2>
       <h2><Link href="/auth/login">Login</Link></h2>
       <h2><Link href="/auth/register">Register</Link></h2>
       <h1>Name : {session?.user?.name}</h1>
